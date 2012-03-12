@@ -117,7 +117,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/epic4gtouch-common/proprietary/wimaxloader.bin:system/etc/wimaxloader.bin \
     vendor/samsung/epic4gtouch-common/proprietary/wimax_boot.bin:system/etc/wimax_boot.bin \
     vendor/samsung/epic4gtouch-common/proprietary/libSECmWiMAXcAPI.so:system/lib/libSECmWiMAXcAPI.so \
-    vendor/samsung/epic4gtouch-common/proprietary/wimax_service.jar:system/lib/wimax_service.jar \
+    vendor/samsung/epic4gtouch-common/proprietary/wimax_service.jar:system/framework/wimax_service.jar \
     vendor/samsung/epic4gtouch-common/proprietary/WiMAXSettings.apk:system/app/WiMAXSettings.apk \
     vendor/samsung/epic4gtouch-common/proprietary/SprintMenu.apk:system/app/SprintMenu.apk \
     vendor/samsung/epic4gtouch-common/proprietary/WiMAXHiddenMenu.apk:system/app/WiMAXHiddenMenu.apk \
