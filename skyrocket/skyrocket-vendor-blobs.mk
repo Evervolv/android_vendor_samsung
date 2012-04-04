@@ -16,7 +16,6 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/samsung/skyrocket/proprietary/lib/libOmxVenc.so:obj/lib/libOmxVenc.so \
 
 # All the blobs necessary for skyrocket
 PRODUCT_COPY_FILES += \
@@ -176,10 +175,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/skyrocket/proprietary/etc/firmware/bcm4330B1.hcd:/system/etc/firmware/bcm4330B1.hcd \
     vendor/samsung/skyrocket/proprietary/bin/brcm_patchram_plus:/system/bin/brcm_patchram_plus \
-
-# Misc
-PRODUCT_COPY_FILES += \
-    vendor/samsung/skyrocket/proprietary/lib/libOmxVenc.so:/system/lib/libOmxVenc.so \
 
 # Not sure if I need these
 #vendor/samsung/skyrocket/proprietary/bin/dhcpcd:/system/bin/dhcpcd \
