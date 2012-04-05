@@ -179,9 +179,4 @@ PRODUCT_COPY_FILES += \
 # Disabled, for now due to crashes in /system/bin/mediaserver
 #vendor/samsung/skyrocket/proprietary/lib/hw/audio_policy.msm8660.so:/system/lib/hw/audio_policy.msm8660.so \
 #vendor/samsung/skyrocket/proprietary/lib/hw/audio.primary.msm8660.so:/system/lib/hw/audio.primary.msm8660.so \
-#vendor/samsung/skyrocket/proprietary/lib/hw/audio.primary.default.so:/system/lib/hw/audio.primary.default.so \
-#vendor/samsung/skyrocket/proprietary/lib/hw/audio_policy.default.so:/system/lib/hw/audio_policy.default.so \
-
-# Disabled, for now due to in /system/bin/mediaserver:libaudioflinger:onFirstRef()
-#vendor/samsung/skyrocket/proprietary/lib/hw/audio.a2dp.default.so:/system/lib/hw/audio.a2dp.default.so \
 
