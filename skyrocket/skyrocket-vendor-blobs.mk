@@ -57,10 +57,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/skyrocket/proprietary/lib/hw/lights.msm8660.so:/system/lib/hw/lights.msm8660.so \
     vendor/samsung/skyrocket/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
-    vendor/samsung/skyrocket/proprietary/lib/hw/copybit.msm8660.so:/system/lib/hw/copybit.msm8660.so \
-    vendor/samsung/skyrocket/proprietary/lib/hw/gralloc.default.so:/system/lib/hw/gralloc.default.so \
-    vendor/samsung/skyrocket/proprietary/lib/hw/gralloc.msm8660.so:/system/lib/hw/gralloc.msm8660.so \
-    vendor/samsung/skyrocket/proprietary/lib/hw/hwcomposer.msm8660.so:/system/lib/hw/hwcomposer.msm8660.so \
     vendor/samsung/skyrocket/proprietary/lib/hw/nfc.qcom.so:/system/lib/hw/nfc.qcom.so \
 
 # Graphics
