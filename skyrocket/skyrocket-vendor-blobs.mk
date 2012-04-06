@@ -31,9 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/skyrocket/proprietary/bin/thermald:/system/bin/thermald \
     vendor/samsung/skyrocket/proprietary/etc/init.qcom.modem_links.sh:/system/etc/init.qcom.modem_links.sh \
     vendor/samsung/skyrocket/proprietary/etc/init.qcom.post_boot.sh:/system/etc/init.qcom.post_boot.sh \
-    vendor/samsung/skyrocket/proprietary/etc/audio_effects.conf:/system/etc/audio_effects.conf \
-    vendor/samsung/skyrocket/proprietary/etc/apns-conf.xml:/system/etc/apns-conf.xml \
-    vendor/samsung/skyrocket/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
     vendor/samsung/skyrocket/proprietary/lib/libakm.so:/system/lib/libakm.so \
     vendor/samsung/skyrocket/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
 
@@ -67,14 +64,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/skyrocket/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/samsung/skyrocket/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/samsung/skyrocket/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-    vendor/samsung/skyrocket/proprietary/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/samsung/skyrocket/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
+    vendor/samsung/skyrocket/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
     vendor/samsung/skyrocket/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
     vendor/samsung/skyrocket/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/samsung/skyrocket/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
 
 # Audio
 PRODUCT_COPY_FILES += \
+    vendor/samsung/skyrocket/proprietary/etc/audio_effects.conf:/system/etc/audio_effects.conf \
     vendor/samsung/skyrocket/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/samsung/skyrocket/proprietary/lib/libaudioparsers.so:/system/lib/libaudioparsers.so \
     vendor/samsung/skyrocket/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
@@ -121,6 +119,7 @@ PRODUCT_COPY_FILES += \
 
 # Radio
 PRODUCT_COPY_FILES += \
+    vendor/samsung/skyrocket/proprietary/etc/apns-conf.xml:/system/etc/apns-conf.xml \
     vendor/samsung/skyrocket/proprietary/bin/rild:/system/bin/rild \
     vendor/samsung/skyrocket/proprietary/bin/ATFWD-daemon:/system/bin/ATFWD-daemon \
     vendor/samsung/skyrocket/proprietary/bin/qcks:/system/bin/qcks \
