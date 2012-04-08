@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/samsung/epic4gtouch-common/proprietary/libTVOut.so:obj/lib/libTVOut.so 
+    vendor/samsung/epic4gtouch-common/proprietary/libTVOut.so:obj/lib/libTVOut.so \
+    vendor/samsung/epic4gtouch-common/proprietary/libfimc.so:obj/lib/libfimc.so
 
 # EGL
 PRODUCT_COPY_FILES += \
