@@ -16,6 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
+    vendor/samsung/skyrocket/proprietary/lib/libril.so:obj/lib/libril.so \
 
 # All the blobs necessary for skyrocket
 PRODUCT_COPY_FILES += \
@@ -120,7 +121,6 @@ PRODUCT_COPY_FILES += \
 # Radio
 PRODUCT_COPY_FILES += \
     vendor/samsung/skyrocket/proprietary/etc/apns-conf.xml:/system/etc/apns-conf.xml \
-    vendor/samsung/skyrocket/proprietary/bin/rild:/system/bin/rild \
     vendor/samsung/skyrocket/proprietary/bin/ATFWD-daemon:/system/bin/ATFWD-daemon \
     vendor/samsung/skyrocket/proprietary/bin/qcks:/system/bin/qcks \
     vendor/samsung/skyrocket/proprietary/bin/sec-ril:/system/bin/sec-ril \
@@ -133,7 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/skyrocket/proprietary/lib/libqdi.so:/system/lib/libqdi.so \
     vendor/samsung/skyrocket/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
     vendor/samsung/skyrocket/proprietary/lib/libqueue.so:/system/lib/libqueue.so \
-    vendor/samsung/skyrocket/proprietary/lib/libreference-ril.so:/system/lib/libreference-ril.so \
     vendor/samsung/skyrocket/proprietary/lib/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
     vendor/samsung/skyrocket/proprietary/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
     vendor/samsung/skyrocket/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
