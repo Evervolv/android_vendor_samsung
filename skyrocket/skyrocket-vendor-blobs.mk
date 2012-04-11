@@ -176,7 +176,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/skyrocket/proprietary/bin/brcm_patchram_plus:/system/bin/brcm_patchram_plus \
 
 # Not sure if I need these
-#vendor/samsung/skyrocket/proprietary/bin/dhcpcd:/system/bin/dhcpcd \
 #vendor/samsung/skyrocket/proprietary/bin/sh0:/system/bin/sh0 \
 
 # Disabled, for now due to crashes in /system/bin/mediaserver
