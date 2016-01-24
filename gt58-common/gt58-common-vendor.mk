@@ -27,7 +27,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libmm-abl
 
-PRODUCT_PACKAGES += \
-    libHevcSwDecoder
-
 $(call inherit-product, vendor/samsung/gt58-common/gt58-common-vendor-blobs.mk)
