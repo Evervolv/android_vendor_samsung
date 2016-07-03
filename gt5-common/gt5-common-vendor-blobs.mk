@@ -71,6 +71,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt5-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/samsung/gt5-common/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/samsung/gt5-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/samsung/gt5-common/proprietary/vendor/lib/libqomx_jpegdec.so:system/lib/libqomx_jpegdec.so \
+    vendor/samsung/gt5-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/gt5-common/proprietary/lib/libjpega.so:system/lib/libjpega.so \
     vendor/samsung/gt5-common/proprietary/lib/libexifa.so:system/lib/libexifa.so \
     vendor/samsung/gt5-common/proprietary/vendor/lib/libchromatix_sr544_common.so:system/vendor/lib/libchromatix_sr544_common.so \
