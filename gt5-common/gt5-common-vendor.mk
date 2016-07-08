@@ -18,13 +18,11 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/samsung/gt5-common/overlay
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location
-
-PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService
 
 PRODUCT_PACKAGES += \
-    libmm-abl
+    libmm-abl \
+    libmm-disp-apis
 
 $(call inherit-product, vendor/samsung/gt5-common/gt5-common-vendor-blobs.mk)
