@@ -25,4 +25,7 @@ PRODUCT_PACKAGES += \
     libmm-abl \
     libmm-disp-apis
 
+PRODUCT_PACKAGES += \
+    libloc_api_v02
+
 $(call inherit-product, vendor/samsung/gt5-common/gt5-common-vendor-blobs.mk)
