@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt5-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/samsung/gt5-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/samsung/gt5-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/samsung/gt5-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/samsung/gt5-common/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/samsung/gt5-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/gt5-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
