@@ -12,12 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Prebuilt libraries that are needed to build open-source libraries
-PRODUCT_COPY_FILES += \
-	vendor/samsung/celox/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
-	vendor/samsung/celox/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-	vendor/samsung/celox/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
-
 # Proprietary files
 PRODUCT_COPY_FILES += \
 	vendor/samsung/celox/proprietary/bin/netmgrd:system/bin/netmgrd.exec \
