@@ -114,6 +114,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt5-common/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
     vendor/samsung/gt5-common/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
     vendor/samsung/gt5-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/samsung/gt5-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/gt5-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/samsung/gt5-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/samsung/gt5-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/gt5-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/gt5-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/samsung/gt5-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
