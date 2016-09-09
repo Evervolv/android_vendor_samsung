@@ -69,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libplayready_v2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplayready_v2.5.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libseckeyprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseckeyprov.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecnativefeature.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecril-client.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libsomx263dsw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomx263dsw.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libsomx264dsw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomx264dsw.so \
