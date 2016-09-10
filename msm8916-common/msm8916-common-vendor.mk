@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/fmconfig:system/vendor/bin/fmconfig \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/ftm_ptt:system/vendor/bin/ftm_ptt \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
-    vendor/samsung/msm8916-common/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/port-bridge:system/vendor/bin/port-bridge \
