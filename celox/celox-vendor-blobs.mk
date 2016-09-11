@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celox/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
 	vendor/samsung/celox/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/samsung/celox/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-	vendor/samsung/celox/proprietary/bin/ks:system/bin/ks.exec \
+	vendor/samsung/celox/proprietary/bin/ks:system/bin/ks \
 	vendor/samsung/celox/proprietary/bin/qmuxd:system/bin/qmuxd.exec \
 	vendor/samsung/celox/proprietary/bin/rild:system/bin/rild \
 	vendor/samsung/celox/proprietary/bin/rmt_storage:system/bin/rmt_storage.exec \
