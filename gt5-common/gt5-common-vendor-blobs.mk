@@ -91,6 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt5-common/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
     vendor/samsung/gt5-common/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
     vendor/samsung/gt5-common/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
+    vendor/samsung/gt5-common/proprietary/lib/libawb_algo_front.so:system/lib/libawb_algo_front.so \
     vendor/samsung/gt5-common/proprietary/lib/libawb_algo_rear_al.so:system/lib/libawb_algo_rear_al.so \
     vendor/samsung/gt5-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/samsung/gt5-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
