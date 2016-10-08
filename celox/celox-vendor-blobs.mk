@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celox/proprietary/bin/qmuxd:system/bin/qmuxd.exec \
 	vendor/samsung/celox/proprietary/bin/rild:system/bin/rild \
 	vendor/samsung/celox/proprietary/bin/rmt_storage:system/bin/rmt_storage.exec \
-	vendor/samsung/celox/proprietary/bin/sec-ril:system/bin/sec-ril.exec \
 	vendor/samsung/celox/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	vendor/samsung/celox/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/samsung/celox/proprietary/lib/libqdi.so:system/lib/libqdi.so \
