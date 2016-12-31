@@ -29,3 +29,5 @@ PRODUCT_PACKAGES += \
     libloc_api_v02
 
 $(call inherit-product, vendor/samsung/gt5-common/gt5-common-vendor-blobs.mk)
+
+$(call inherit-product, vendor/qcom/binaries/msm8916-32/graphics/graphics-vendor.mk)
