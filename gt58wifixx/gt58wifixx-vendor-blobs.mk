@@ -16,3 +16,28 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gt58wifixx/proprietary/etc/Tfa9895.cnt:system/etc/Tfa9895.cnt \
+    vendor/samsung/gt58wifixx/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/libSamsungAudioEngine_SideSync.so:system/lib/libSamsungAudioEngine_SideSync.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/lib_SamsungRec_V04013.so:system/lib/lib_SamsungRec_V04013.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/libsamsungSoundbooster_ext.so:system/lib/libsamsungSoundbooster_ext.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/libsamsungSoundbooster_pgb.so:system/lib/libsamsungSoundbooster_pgb.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/libsamsungvad.so:system/lib/libsamsungvad.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/lib_SoundAlive_3DPosition_ver107.so:system/lib/lib_SoundAlive_3DPosition_ver107.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/lib_SoundAlive_play_plus_ver126a.so:system/lib/lib_SoundAlive_play_plus_ver126a.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/libSoundAlive_VSP_ver315b_arm.so:system/lib/libSoundAlive_VSP_ver315b_arm.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/lib_SoundBooster_ver610.so:system/lib/lib_SoundBooster_ver610.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
+    vendor/samsung/gt58wifixx/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
+    vendor/samsung/gt58wifixx/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so
