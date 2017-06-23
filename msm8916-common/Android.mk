@@ -17,7 +17,8 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),samsung)
-ifeq ($(TARGET_BOARD_PLATFORM),msm8916)
+
+ifneq ($(filter msm8916 msm8939,$(TARGET_BOARD_PLATFORM)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libHevcSwDecoder
@@ -59,8 +60,10 @@ LOCAL_SRC_FILES := proprietary/app/TimeService/TimeService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
-endif
-endif
+endif # TARGET_BOARD_PLATFORM
+
+endif # BOARD_VENDOR
