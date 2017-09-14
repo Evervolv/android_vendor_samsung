@@ -81,6 +81,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celox/proprietary/lib/libmmstereo.so:system/lib/libmmstereo.so \
 	vendor/samsung/celox/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 	vendor/samsung/celox/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+	vendor/samsung/celox/proprietary/lib/libstlport.so:system/lib/libstlport.so \
 	vendor/samsung/celox/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
 	vendor/samsung/celox/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
 	vendor/samsung/celox/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
