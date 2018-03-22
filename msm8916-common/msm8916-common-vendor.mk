@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/etc/plmn_se13.bin:system/vendor/etc/plmn_se13.bin \
     vendor/samsung/msm8916-common/proprietary/vendor/etc/somxreg.conf:system/vendor/etc/somxreg.conf \
     vendor/samsung/msm8916-common/proprietary/vendor/etc/srm.bin:system/vendor/etc/srm.bin \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libOmxVdecHevc.so:system/vendor/lib/libOmxVdecHevc.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libatparser.so:system/vendor/lib/libatparser.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libaudio-ril.so:system/vendor/lib/libaudio-ril.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libcordon.so:system/vendor/lib/libcordon.so \
@@ -203,7 +202,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
     libloc_api_v02 \
     libloc_ds_api \
-    libHevcSwDecoder \
     libaudioalsa \
     libbtnv \
     libqct_resampler \
