@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter gtelwifiue gtesqltespr gt510wifi,$(TARGET_DEVICE)),)
+ifneq ($(filter gt58wifi gt58ltetmo gt510lte gt510wifi gtesqltespr gtelwifiue,$(TARGET_DEVICE)),)
 
 endif
