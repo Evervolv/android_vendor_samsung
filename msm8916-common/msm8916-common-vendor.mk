@@ -1,4 +1,4 @@
-# Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -86,6 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/lib/libsomxmp4vdsw.so:system/lib/libsomxmp4vdsw.so \
     vendor/samsung/msm8916-common/proprietary/lib/libsomxnaace.so:system/lib/libsomxnaace.so \
     vendor/samsung/msm8916-common/proprietary/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
@@ -162,6 +163,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libqti-at.so:system/vendor/lib/libqti-at.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
